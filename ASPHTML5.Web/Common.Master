@@ -1,0 +1,645 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common.master.cs" Inherits="ASPHTML5.Web.Common" %>
+
+<%@ Register Src="~/UserControls/UCLeftHtml.ascx" TagName="UC_LeftHtml" TagPrefix="uc1" %>
+<%@ Register Assembly="ASPHTML5.Web" Namespace="ASPHTML5.Web.Helpers" TagPrefix="modzee" %>
+<%@ Register Src="~/UserControls/UCMap.ascx" TagName="UCMap" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="http://www.sodeco-gestion.com/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="http://www.sodeco-gestion.com/favicon.ico" type="image/x-icon" />
+    <link href="/includes/styles.css" rel="stylesheet" type="text/css" />
+    <!-- Scroll Function End -->
+    <!--[if IE 7]>
+<link href="/includes/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <title>Sodeco Gestion</title>
+    <meta name="google-site-verification" content="BMx7NsSMYTIF0Hn_w17WJnKDtYhmWiig9t3jlyAemr0" />
+
+    <asp:ContentPlaceHolder ID="cpMeta" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" id="form">
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct: "K/43j1a8Dy00WD", domain: "sodeco-gestion.com", dynamic: true };
+        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+    </script>
+    <noscript>
+        <img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=K/43j1a8Dy00WD" style="display: none"
+            height="1" width="1" alt="" /></noscript>
+    <!-- End Alexa Certify Javascript -->
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <CompositeScript>
+            <Scripts>
+                <asp:ScriptReference Path="~/includes/functions.js" />
+                <asp:ScriptReference Path="~/includes/jquery.min.js" />
+                <asp:ScriptReference Path="~/includes/jquery-ui-1.8.19.custom.min.js" />
+                <asp:ScriptReference Path="~/includes/scroll/dw_scrollObj.js" />
+                <asp:ScriptReference Path="~/includes/scroll/dw_hoverscroll.js" />
+                <asp:ScriptReference Path="~/includes/scroll/dw_event.js" />
+                <asp:ScriptReference Path="~/includes/scroll/dw_slidebar.js" />
+                <asp:ScriptReference Path="~/includes/scroll/dw_scroll_aux.js" />
+                <asp:ScriptReference Path="~/includes/AC_RunActiveContent.js" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <table width="1000" align="center" class="generalsection" border="0" cellspacing="0"
+        cellpadding="0">
+        <tr>
+            <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="212">
+                            <a runat="server" id="index">
+                                <img id="Img1" runat="server" src="<%$Resources:Image.logo %>" width="212" height="109"
+                                    alt="Home" title="Home" border="0" /></a>
+                        </td>
+                        <td style="text-align: center">
+                            <div class="font14px">
+                                <img src="/images/spacer.gif" alt="" /><br />
+                                <br />
+                                <br />
+                                <br />
+                                <b>
+                                    <%=this.GetLocalResourceObject("Slogan").ToString()%></b></div>
+                        </td>
+                        <td width="212" valign="top">
+                            <div class="info_div">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            <asp:LinkButton ID="lnkFrench"  OnCommand="lnkLanguage_Click" CommandArgument="<%$Resources:lnkFirstLang.Culture %>"
+                                                CausesValidation="false"  Text="<%$Resources:lnkFirstLang.Text %>" runat="server" />
+                                           <%-- <asp:ImageButton ID="lnkFrench" runat="server" ImageUrl="<%$Resources:lnkFirstLang.Image %>"
+                                                OnCommand="lnkLanguage_Click" CommandArgument="<%$Resources:lnkFirstLang.Culture %>"
+                                                CausesValidation="false" />--%>
+                                        </td>
+                                        <td width="26">
+                                        </td>
+                                        <td>
+                                              <asp:LinkButton ID="lnkArabic"  OnCommand="lnkLanguage_Click" CommandArgument="<%$Resources:lnkSecondLang.Culture %>"
+                                                CausesValidation="false"  Text="<%$Resources:lnkSecondLang.Text %>" runat="server" />
+                                           <%-- <asp:ImageButton ID="lnkArabic" runat="server" ImageUrl="<%$Resources:lnkSecondLang.Image %>"
+                                                OnCommand="lnkLanguage_Click" CommandArgument="<%$Resources:lnkSecondLang.Culture %>"
+                                                CausesValidation="false" />--%>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div>
+                                    <img src="/images/spacer.gif" alt="" width="1" height="10" /></div>
+                                <%-- <div class="font11px"><asp:Literal ID="Literal16" runat="server" Text="<%$Resources:Address.CompanyName%>" /></div>--%>
+                                <div class="font11px">
+                                    <div style="float: left;">
+                                        <asp:Image ID="Image9" Style="border-width: 0px; padding-left: 5px; margin-right: 5px;"
+                                            align="middle" ImageUrl="~/images/Phoneim.PNG" runat="server" Width="17px" Height="26px" /></div>
+                                    <div style="float: left; margin-top: 8px;">
+                                        <asp:Literal ID="Literal16" runat="server" Text="<%$Resources:Address.Phone%>" /></div>
+                                </div>
+                                <div class="clear_both">
+                                </div>
+                                <div class="font11px">
+                                    <div style="float: left;">
+                                        <asp:Image ID="Image10" align="middle" ImageUrl="~/images/emailimg.PNG" Width="28"
+                                            Height="18" runat="server" /></div>
+                                    <div style="float: left; margin-top: 4px;">
+                                        <a href="mailto:sodeco@sodeco-gestion.com">sodeco@sodeco-gestion.com</a></div>
+                                </div>
+                                <div class="clear_both">
+                                </div>
+                                <div class="font11px" style="margin-left: 14px; margin-top: 5px;">
+                                    <asp:Literal ID="Literal17" runat="server" Text="<%$Resources:Address.Address%>" /></div>
+                                <%--<div class="font11px"><asp:Literal ID="Literal19" runat="server" Text="<%$Resources:Address.Fax%>" /></div>--%>
+                                <%--<div class="font11px"><a href="http://www.sodeco-gestion.com" target="_blank">www.sodeco-gestion.com</a></div>--%>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="212" valign="top">
+                            <!-- Left Menu Begin -->
+                            <div>
+                                <div class="menu_item_top">
+                                </div>
+                                <div class="menu_item textalignright">
+                                    <a runat="server" href="~/Index.aspx" id="home">
+                                        <asp:Literal ID="Literal1" runat="server" Text="<%$Resources:Menu.Home%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignright" style="padding: 3px 6px !important;">
+                                    <img src="/images/asterix.png" width="14" height="12" alt=" " style="margin: 0px 0px;" />
+                                    <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Buy%>" />' id="buy">
+                                        <asp:Literal ID="Literal2" runat="server" Text="<%$Resources:Menu.Buy%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignright">
+                                    <img src="/images/asterix.png" width="14" height="12" alt=" " style="margin: 0px 0px;" />
+                                    <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Rent%>" />' id="rent">
+                                        <asp:Literal ID="Literal3" runat="server" Text="<%$Resources:Menu.Rent%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignright">
+                                    <a runat="server" id="investments">
+                                        <asp:Literal ID="Literal4" runat="server" Text="<%$Resources:Menu.Investments%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignright">
+                                    <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Mortages%>" />' id="mortgages">
+                                        <asp:Literal ID="Literal5" runat="server" Text="<%$Resources:Menu.Mortgages%>" /></a></div>
+                            </div>
+                            <!-- Left Menu End -->
+                        </td>
+                        <td valign="top">
+                            <div id="rotator">
+                                <ul>
+                                    <li class="show"><a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Services%>" />'>
+                                        <img src="/images/image-8.jpg" width="576" height="121" alt="Consultant Property Management" /></a></li>
+                                    <li><a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Buy%>" />'>
+                                        <img src="/images/image-9.jpg" width="576" height="121" alt="Real Estate For Sale - Lebanon" /></a></li>
+                                    <asp:Repeater runat="server" ID="rptBanner" DataSourceID="BannerObjectDataSource">
+                                        <ItemTemplate>
+                                            <li>
+                                                <asp:HyperLink NavigateUrl='<%#  ResolveUrl("~/") + CurrentCultureString + "/" + Eval( "PRL").ToString() + "/" +  (DataBinder.Eval(Container.DataItem, "PropertyFor").ToString().ToLower().Contains("rent") || DataBinder.Eval(Container.DataItem, "PropertyFor").ToString().ToLower().Contains("short") ? string.Format("{0:########0}", DataBinder.Eval(Container.DataItem, "RentPrice")) : string.Format("{0:########0}", DataBinder.Eval(Container.DataItem, "SalePrice"))) +
+       "-" + GetLocalizedString(Container.DataItem,"PropertyType").Replace("/","-").Replace(" ","-") + "-" + 
+        GetLocalizedString(Container.DataItem,"PropertyFor").Replace("/","-").Replace(" ","-") + "-" + 
+        GetLocalizedString(Container.DataItem, "District").Replace("/","-").Replace(" ","-") + "/" + Resources.Links.Lebanon %>'
+                                                    runat="server">
+                                            <asp:image imageurl='<%# "~/ImageViewer.aspx?banner=b&ID=" + DataBinder.Eval(Container.DataItem, "ID") %>' runat="server" Width="576" Height="121" AlternateText="Image Banner"/>
+                                                </asp:HyperLink>
+                                            </li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                    <asp:ObjectDataSource ID="BannerObjectDataSource" runat="server" SelectMethod="GetBanners"
+                                        TypeName="ASPHTML5.BAL.PropertyImage"></asp:ObjectDataSource>
+                                    <%-- <li><a href="" id="hplSearchHotProps" runat="server">
+                                        <img src="/images/image-7.jpg" width="576" height="121" alt="Search for hot Properties" /></a></li>
+                                      <li class="show">
+                                        <img src="/images/image-5.jpg" width="576" height="121" alt="pic1" /></li>
+                                    <li>
+                                        <img src="/images/image-6.jpg" width="576" height="121" alt="pic4" /></li>
+                                    <li>
+                                        <img src="/images/image-2.jpg" width="576" height="121" alt="pic2" /></li>
+                                    <li>
+                                        <img src="/images/image-3.jpg" width="576" height="121" alt="pic3" /></li>--%>
+                                </ul>
+                            </div>
+                            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    //Load the slideshow
+                                    theRotator();
+                                });
+                            </script>
+                            <%--<div class="top_img_div">
+      <%--<div class="font22px"><asp:Literal ID="Literal20" runat="server" Text="<%$Resources:Header.Main%>" /></div>
+      <div><img src="/images/spacer.gif" alt="" width="1" height="2" /></div>
+      <div class="font14px"><asp:Literal ID="Literal21" runat="server" Text="<%$Resources:Header.Text1%>" /> <span class="blue_text2 font10px">&nbsp;<img src="<%$Resources:Image.arrow_blue3%>" runat="server" alt="" border="0" /> <a href="EvaluationRequest.aspx?Id=Eval"> <asp:Literal ID="Literal24" runat="server" Text=" <%$Resources:Header.MoreInfo%>" /></a></span></div>
+      <div class="font14px"><asp:Literal ID="Literal22" runat="server" Text="<%$Resources:Header.Text2%>" /> <span class="blue_text2 font10px">&nbsp;<img src="<%$Resources:Image.arrow_blue3%>" runat="server" alt="" border="0" /> <a href="EvaluationRequest.aspx?Id=Advise"> <asp:Literal ID="Literal25" runat="server" Text="<%$Resources:Header.MoreInfo%>" /></a></span></div>
+      <div class="font14px"><asp:Literal ID="Literal23" runat="server" Text="<%$Resources:Header.Text3%>" /> <span class="blue_text2 font10px">&nbsp;<img src="<%$Resources:Image.arrow_blue3%>" runat="server" alt="" border="0" /> <a href="EvaluationRequest.aspx?Id=Manage"> <asp:Literal ID="Literal26" runat="server" Text="<%$Resources:Header.MoreInfo%>" /></a></span></div>
+      </div>
+      <div><img src="<%$Resources:Image.top_img%>" runat="server" alt="" /></div>     --%>
+                        </td>
+                        <td width="212" valign="top">
+                            <!-- Right Menu Begin -->
+                            <div>
+                                <div class="menu_item_top">
+                                </div>
+                                <div class="menu_item textalignleft">
+                                    <a runat="server" id="profile">
+                                        <asp:Literal ID="Literal6" runat="server" Text="<%$Resources:Menu.Profile%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignleft">
+                                    <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.About%>" />' id="A1">
+                                        <asp:Literal ID="Literal7" runat="server" Text="<%$Resources:Menu.AboutUs%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignleft">
+                                    <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Services%>" />' id="services">
+                                        <asp:Literal ID="Literal8" runat="server" Text="<%$Resources:Menu.Services%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignleft">
+                                   <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Feedback%>" />' id="A2">
+                                        <asp:Literal ID="Literal9" runat="server" Text="<%$Resources:Menu.Feedback%>" /></a></div>
+                                <div class="menu_item_sep">
+                                </div>
+                                <div class="menu_item textalignleft">
+                                   <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Contact%>" />' id="A3">
+                                        <asp:Literal ID="Literal10" runat="server" Text="<%$Resources:Menu.Contact%>" /></a></div>
+                            </div>
+                            <!-- Right Menu End -->
+                        </td>
+                    </tr>
+                </table>
+                <!-- added section begin -->
+                <!-- added section begin -->
+                <div style="position: relative">
+                    <div class="added_section">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView1" ImageUrl="<%$Resources:Images.View_1%>" AlternateText="" />
+                                </td>
+                                <td class="view_1_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView2" ImageUrl="<%$Resources:Images.View_2%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="13" class="view_left_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td class="inv_middle">
+                                    <div class="font12px fontbold blue_text textalignleft">
+                                        <asp:Literal ID="Literal24" runat="server" Text=" <%$Resources:Header.Text%>" /></div>
+                                    <div>
+                                        <img src="/images/spacer.gif" alt="" width="1" height="15" /></div>
+                                    <div class="arrow_blue_div">
+                                        <a runat="server" id="evalEval">
+                                            <asp:Literal ID="Literal21" runat="server" Text=" <%$Resources:Header.Text1%>" /></a></div>
+                                    <div class="arrow_blue_div">
+                                        <a runat="server" id="evalAdvise">
+                                            <asp:Literal ID="Literal22" runat="server" Text=" <%$Resources:Header.Text2%>" /></a></div>
+                                    <div class="arrow_blue_div">
+                                        <a runat="server" id="evalManage">
+                                            <asp:Literal ID="Literal23" runat="server" Text=" <%$Resources:Header.Text3%>" /></a></div>
+                                </td>
+                                <td width="13" class="view_right_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView3" ImageUrl="<%$Resources:Images.View_3%>" AlternateText="" />
+                                </td>
+                                <td class="view_3_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView4" ImageUrl="<%$Resources:Images.View_4%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- added section end -->
+                <!-- added section end -->
+                <!-- added section2 begin -->
+                <!-- added section2 begin -->
+                <div style="position: relative">
+                    <div class="added_section2">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView11" ImageUrl="<%$Resources:Images.View_1%>"
+                                        AlternateText="" />
+                                </td>
+                                <td class="view_1_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView21" ImageUrl="<%$Resources:Images.View_2%>"
+                                        AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="13" class="view_left_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td class="inv_middle">
+                                    <a href="/EvaluationRequest/Eval">
+                                        <asp:Literal ID="Literal211" runat="server" Text=" <%$Resources:Header.TextPost%>" /></a>
+                                </td>
+                                <td width="13" class="view_right_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView31" ImageUrl="<%$Resources:Images.View_3%>"
+                                        AlternateText="" />
+                                </td>
+                                <td class="view_3_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="imgView41" ImageUrl="<%$Resources:Images.View_4%>"
+                                        AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- added section2 end -->
+                <!-- added section2 end -->
+                <!-- added section3 begin -->
+                <!-- added section3 begin -->
+                <div style="position: relative">
+                    <div class="added_section3">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image1" ImageUrl="<%$Resources:Images.View_1%>" AlternateText="" />
+                                </td>
+                                <td class="view_1_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image2" ImageUrl="<%$Resources:Images.View_2%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="13" class="view_left_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td class="inv_middle">
+                                    <a href="" id="hplHotProps" runat="server">
+                                        <asp:Literal ID="Literal20" runat="server" Text=" <%$Resources:Header.Hot%>" /></a>
+                                </td>
+                                <td width="13" class="view_right_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image3" ImageUrl="<%$Resources:Images.View_3%>" AlternateText="" />
+                                </td>
+                                <td class="view_3_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image4" ImageUrl="<%$Resources:Images.View_4%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- added section3 end -->
+                <!-- added section3 end -->
+                <!-- added section4 begin -->
+                <!-- added section4 begin -->
+                <div style="position: relative">
+                    <div class="added_section4">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image5" ImageUrl="<%$Resources:Images.View_1%>" AlternateText="" />
+                                </td>
+                                <td class="view_1_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image6" ImageUrl="<%$Resources:Images.View_2%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="13" class="view_left_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td class="inv_middle">
+                                    <a href="http://www.facebook.com/HomeStagingLb" target="_blank">
+                                        <asp:Literal ID="Literal25" runat="server" Text=" <%$Resources:Header.Relook%>" /></a>
+                                </td>
+                                <td width="13" class="view_right_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image7" ImageUrl="<%$Resources:Images.View_3%>" AlternateText="" />
+                                </td>
+                                <td class="view_3_bg">
+                                    <img src="/images/spacer.gif" alt="" />
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image8" ImageUrl="<%$Resources:Images.View_4%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- added section4 end -->
+                <!-- added section4 end -->
+                <!-- added section5 begin -->
+                <!-- added section5 begin -->
+                <div style="position: relative">
+                    <div class="added_section5">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image11" ImageUrl="<%$Resources:Images.View_1%>" AlternateText="" />
+                                </td>
+                                <td class="view_1_bg">
+                                    <img alt="" src="/images/spacer.gif">
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image12" ImageUrl="<%$Resources:Images.View_2%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                                <td width="13" class="view_left_bg">
+                                    <img alt="" src="/images/spacer.gif">
+                                </td>
+                                <td class="inv_middle blog">
+                                    <a target="_blank" href="/Blog.aspx">
+                                        <asp:Literal ID="Literal18" runat="server" Text="<%$Resources:Blog.realestate%>" /></a>
+                                </td>
+                                <td width="13" class="view_right_bg">
+                                    <img alt="" src="/images/spacer.gif">
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image13" ImageUrl="<%$Resources:Images.View_3%>" AlternateText="" />
+                                </td>
+                                <td class="view_3_bg">
+                                    <img alt="" src="/images/spacer.gif">
+                                </td>
+                                <td width="20">
+                                    <asp:Image runat="server" ID="Image14" ImageUrl="<%$Resources:Images.View_4%>" AlternateText="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- added section5 end -->
+                <!-- added section5 end -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="219" valign="top" style="padding-top: 300px">
+                            <div class="pad_col_left">
+                                <uc1:UC_LeftHtml runat="server" ID="UCLeftHtml1" />
+                            </div>
+                        </td>
+                        <td valign="top">
+                            <div class="middle_padd">
+                                <asp:ContentPlaceHolder ID="cpHead" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <div>
+                                <asp:ContentPlaceHolder ID="cpMain" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                        <td width="223" valign="top">
+                            <div class="leftdivcom">
+                                <div>
+                                    <img src="/images/spacer.gif" alt="" width="1" height="13" /></div>
+                                <div>
+                                    <asp:ContentPlaceHolder ID="cpMapPanel" runat="server">
+                                        <div>
+                                            <uc1:UCMap runat="server" ID="UCMap1" />
+                                        </div>
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                                <div>
+                                    <asp:ContentPlaceHolder ID="cpMiddleRightPanel" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                                <div>
+                                    <asp:ContentPlaceHolder ID="cpUpperRightPanel" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                                <asp:ContentPlaceHolder ID="cpRightPanel" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <asp:ContentPlaceHolder ID="cpBottomPanel" runat="server">
+                </asp:ContentPlaceHolder>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td style="width: 50%; text-align: center;">
+                                        <asp:HyperLink ID="HyperLink1" BorderWidth="0px" runat="server" Target="_blank" NavigateUrl="https://itunes.apple.com/en/app/sodeco-gestion/id626149200?mt=8">
+                                            <img src="/images/mobile-app-ip.jpg" alt="" width="165" height="60" style="border: 0px;"/>
+                                        </asp:HyperLink>
+                                    </td>
+                                    <td style="width: 50%; text-align: center;">
+                                        <asp:HyperLink ID="HyperLink2" BorderWidth="0px" runat="server" NavigateUrl="https://play.google.com/store/search?q=sodecogestion&c=apps&hl=en"
+                                            Target="_blank">                           
+                                            <img src="/images/mobile-app-and.jpg" alt="" width="161" height="60" />
+                                        </asp:HyperLink>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="212">
+                        </td>
+                        <td>
+                            <div class="footer_div">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="122">
+                                            <a runat="server" id="sodeco_gestion">
+                                                <asp:Literal ID="Literal11" runat="server" Text="<%$Resources:Footer.ASPHTML5%>" /></a>
+                                        </td>
+                                        <td width="165">
+                                            <a runat="server" id="terms_conditions">
+                                                <asp:Literal ID="Literal12" runat="server" Text="<%$Resources:Footer.TermsAndConditions%>" /></a>
+                                        </td>
+                                        <td width="100">
+                                            <a runat="server" id="help">
+                                                <asp:Literal ID="Literal13" runat="server" Text="<%$Resources:Footer.Help%>" /></a>
+                                        </td>
+                                        <td width="128">
+                                           <a href='<asp:Literal runat="server" Text="<%$ Resources:Link.Contact%>" />' id="A4">
+                                                <asp:Literal ID="Literal14" runat="server" Text="<%$Resources:Footer.Contact%>" /></a>
+                                        </td>
+                                        <td>
+                                            <a runat="server" id="job_openings">
+                                                <asp:Literal ID="Literal15" runat="server" Text="<%$Resources:Footer.Jobs%>" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                        <td width="212" align="right" style="color: #666666; font-size: 12px">
+                            Developed by <a target="_blank" style="color: #666666" href="http://www.inatco.net/">
+                                Inatco</a>
+                        </td>
+                    </tr>
+                </table>
+                <asp:ImageButton ImageUrl="~/images/facebooklogin.png" Width="300px" ID="btnFacebook"
+                    runat="server" OnClick="btnFacebook_Click" Visible="false" />
+                <!-- Script to highlight Menu Begin -->
+                <script type="text/javascript">
+                    if (document.getElementById(id)) {
+                        document.getElementById(id).style.color = "#6bcdea";
+                    }
+                    if (document.getElementById(id2)) {
+                        document.getElementById(id2).style.color = "#06507f";
+                    }
+                </script>
+                <!-- Script to highlight Menu End -->
+            </td>
+        </tr>
+    </table>
+    </form>
+    <script type="text/JavaScript">        var TFN = ''; var TFA = ''; var TFI = '0'; var TFL = '0'; var tf_RetServer = "rt.trafficfacts.com"; var tf_SiteId = "1453gf94236f3412f4280e385d7bd7d981a4d62b5b01ah19"; var tf_ScrServer = document.location.protocol + "//rt.trafficfacts.com/tf.php?k=1453gf94236f3412f4280e385d7bd7d981a4d62b5b01ah19;c=s;v=5"; document.write(unescape('%3Cscript type="text/JavaScript" src="' + tf_ScrServer + '">%3C/script>'));</script>
+    <noscript>
+        <img src="http://rt.trafficfacts.com/ns.php?k=1453gf94236f3412f4280e385d7bd7d981a4d62b5b01ah19"
+            height="1" width="1" alt="" /></noscript>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32778066-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 976798983;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display: inline;">
+            <img height="1" width="1" style="border-style: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/976798983/?value=0&amp;guid=ON&amp;script=0" />
+        </div>
+    </noscript>
+</body>
+</html>

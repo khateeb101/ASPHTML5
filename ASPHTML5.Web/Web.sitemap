@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0"  enableLocalization="true">
+  <siteMapNode title="Sodeco Gestion" description="Sodeco Gestion">
+  <siteMapNode url="Index.aspx" title="Home"  description="Home" resourceKey="Home"/>
+  <siteMapNode url="Buy.aspx" title="Buy"  description="Buy" resourceKey="Buy"/>
+  <siteMapNode url="Rent.aspx" title="Rent"  description="Rent" resourceKey="Rent"/>
+  <siteMapNode url="Investments.aspx" title="Investments"  description="Investments" resourceKey="Investments"/>
+  <siteMapNode url="Mortages.aspx" title="Mortgages"  description="Mortgages" resourceKey="Mortgages"/>
+  <siteMapNode url="Profile.aspx" title="Profile"  description="Profile" resourceKey="Profile"/>
+  <siteMapNode url="AboutUs.aspx" title="About Us"  description="About Us" resourceKey="About Us"/>
+  <siteMapNode url="Services.aspx" title="Services"  description="Services" resourceKey="Services"/>
+  <siteMapNode url="FeedbackForm.aspx" title="Feedback Form"  description="Feedback Form" resourceKey="Feedback Form" />
+  <siteMapNode url="ContactUs.aspx" title="Contact Form"  description="Contact Form" resourceKey="Contact Form"/>
+  <siteMapNode url="ASPHTML5.aspx" title="Sodeco Gestion"  description="Sodeco Gestion" resourceKey="Sodeco Gestion"/>
+  <siteMapNode url="JobOpportunity.aspx" title="Jobs"  description="Jobs" resourceKey="Jobs"/>
+  </siteMapNode>
+</siteMap>

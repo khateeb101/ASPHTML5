@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.Map" xml:space="preserve">
+    <value>images/map.gif</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Sodeco Gestion</value>
+  </data>
+  <data name="Text.HeaderContent" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Accessing this site:&lt;/b&gt;&lt;br/&gt;
+This site is governed by Lebanese law; please read these terms and conditions carefully before using the website (Sodeco-gestion.com). Using this site indicates that you accept these terms and conditions. If you do not accept these terms and conditions, do not use this site.&lt;br/&gt;
+We may change our terms and conditions from time to time so you should review them regularly. Your use of this site will be deemed an acceptance of the terms and conditions existing at that time.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Permitted use:&lt;/b&gt;&lt;br/&gt;
+Sodeco Gestion sal owns, reserves and retains all property rights, and in particular intellectual property rights, to this site and its content, including reproduction rights
+You may print and download extracts from this site for none commercial use on the following basis:&lt;br/&gt;
+&lt;ul&gt;&lt;li&gt;No document or related graphics are modified in any way.&lt;/li&gt;
+&lt;li&gt;No graphics on the site are used separately from accompany text.&lt;/li&gt;
+&lt;li&gt;No copyright and trademark notices are removed.&lt;/li&gt;&lt;/ul&gt;
+You agree not to:
+&lt;ul&gt;&lt;li&gt;Use any part of this site for commercial purposes.&lt;/li&gt;
+&lt;li&gt;Provide a link to this site from any other website without obtaining our prior written consent.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Your information:&lt;/b&gt;&lt;br/&gt;
+We do not rent, sell or share with a third parties the personal information we collect from you on this site except to provide information or services that you have requested, with your permission.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Security:&lt;/b&gt;&lt;br/&gt;
+Our hosting services maintains its systems in accordance with reasonable industry standards to reasonably secure the information of its customers. However no data transmission over the Internet can be guaranteed to be 100% secure. “Perfect security” does not exist on the Internet, and you use the site at your own risk.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Properties information:&lt;/b&gt;&lt;br/&gt;
+The particulars provided on this site are set out as general outline only for the general guidance of intending purchasers or lessees and do not constitute part of an offer or a contract.&lt;br/&gt;
+All descriptions, dimensions, references to condition and prices, are given in good faith, and are believed to be correct, but any intending lessees or purchasers should not rely on them as statements or representations of fact but must satisfy themselves by inspection or otherwise as to the correctness of each of them.&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Simulator:&lt;/b&gt;&lt;br/&gt;
+The users of the website &lt;a href='www.sodeco-gestion.com'&gt;www.sodeco-gestion.com&lt;/a&gt; have at their disposal a simulator that has been provided by our financial partners, allowing them to calculate easily a house loan. However, these simulators provide only an approximate estimate of the calculated sums, and no guarantee is given by either Sodeco Gestion nor their financial partners as to the accuracy of the calculations. Consequently, the user should refer to the financial institution in question for more in depth details.&lt;/p&gt;
+  
+&lt;p&gt;&lt;b&gt;Links to other websites&lt;/b&gt;&lt;br/&gt;
+This Site may include links to other websites or Internet sources. Sodeco Gestion cannot control these external sites and sources; it is not responsible for enabling users to access these external sites and sources. Accordingly, Sodeco Gestion shall not be liable for the content, advertising, products, services or any other material available on or from these external sites or sources. These links are provided as a service to Sodeco Gestion Site users. The decision to activate the links resides solely with Site users.&lt;/p&gt;	
+
+&lt;p&gt;&lt;b&gt;Corrections / updating personal information:&lt;/b&gt;&lt;br/&gt;
+If your personal information changes or if you no longer wish to use the site, you may correct or update your personal information or unsubscribe by sending an email to consumer service at: &lt;a href='mailto:Sodeco@sodeco-gestion.com'&gt;Sodeco@sodeco-gestion.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Comments and questions:&lt;/b&gt;&lt;br/&gt;
+If you have any questions or concerns about this privacy statement, please contact us by using the contact us or by email.&lt;/p&gt;</value>
+  </data>
+  <data name="Text.HeaderTitle" xml:space="preserve">
+    <value>Terms and Conditions</value>
+  </data>
+</root>

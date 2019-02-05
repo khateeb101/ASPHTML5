@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error.IncorrectEmail" xml:space="preserve">
+    <value>Incorrect Email Format</value>
+  </data>
+  <data name="Image.input_left" xml:space="preserve">
+    <value>../images/input_left.gif</value>
+  </data>
+  <data name="Image.input_right" xml:space="preserve">
+    <value>../images/input_right.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>/locator-en.swf</value>
+  </data>
+  <data name="Image.newsletter_bottom" xml:space="preserve">
+    <value>../images/newsletter_bottom.gif</value>
+  </data>
+  <data name="Image.newsletter_top" xml:space="preserve">
+    <value>../images/newsletter_top.gif</value>
+  </data>
+  <data name="Image.submit" xml:space="preserve">
+    <value>../images/submit.gif</value>
+  </data>
+  <data name="Image.Subscribe" xml:space="preserve">
+    <value>../images/subsribe.gif</value>
+  </data>
+  <data name="Image.UnSubscribe" xml:space="preserve">
+    <value>../images/unsubsribed.gif</value>
+  </data>
+  <data name="Text.EmailAddress" xml:space="preserve">
+    <value>Please enter your e-mail address</value>
+  </data>
+  <data name="Text.EmailSubscribe" xml:space="preserve">
+    <value>You have been subscribed to our monthly newsletter. An email will be ent on monthly basis with our latest news and newsest properties.</value>
+  </data>
+  <data name="Text.MonthlyNewsletter" xml:space="preserve">
+    <value>Monthly Newsletter</value>
+  </data>
+  <data name="Text.Newsletter" xml:space="preserve">
+    <value>NEWSLETTER</value>
+  </data>
+  <data name="Text.ReceiveFree" xml:space="preserve">
+    <value>Receive each month, &lt;br /&gt; for free</value>
+  </data>
+  <data name="Text.WeekNewsletter" xml:space="preserve">
+    <value>newsletter of the week</value>
+  </data>
+  <data name="Image.Locator" xml:space="preserve">
+    <value>/images/locator/locator-en.jpg</value>
+  </data>
+  <data name="Text.LocatorBeirut" xml:space="preserve">
+    <value>Sodeco Main Street
+        &lt;br /&gt;
+        T: &lt;a href="tel:009611616000"&gt;9611616000&lt;/a&gt;, F: &lt;a href="tel:009611614280"&gt;9611614280&lt;/a&gt;
+        &lt;p&gt;
+            Clemenceau street&lt;br /&gt;
+            T: &lt;a href="tel:009611374666"&gt;9611374666&lt;/a&gt;, F: &lt;a href="tel:009611375666"&gt;9611375666&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;
+            &lt;a href="mailto:sodeco@sodeco-gestion.com"&gt;sodeco@sodeco-gestion.com&lt;/a&gt;&lt;br /&gt;
+            &lt;a href="http://sodeco-gestion.com/"&gt;www.sodeco-gestion.com&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Text.LocatorJounieh" xml:space="preserve">
+    <value>Jounieh Highway&lt;br /&gt;
+        Perla Nera Center &lt;br /&gt;
+        T: &lt;a href="tel:009619916816"&gt;961 9 916 816&lt;/a&gt;&lt;br /&gt; 
+        F: &lt;a href="tel:009619916165"&gt;961 9 916 165&lt;/a&gt;        
+        &lt;p&gt;
+            &lt;a href="mailto:sodeco@sodeco-gestion.com"&gt;sodeco@sodeco-gestion.com&lt;/a&gt;&lt;br /&gt;
+            &lt;a href="http://sodeco-gestion.com/"&gt;www.sodeco-gestion.com&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Text.LocatorTripoli" xml:space="preserve">
+    <value>Tripoli Boulevard&lt;br /&gt;
+        Fattal Building&lt;br /&gt;
+        T: &lt;a href="tel:009616411014"&gt;961 6 411 014&lt;/a&gt;&lt;br /&gt; 
+        F: &lt;a href="tel:009616410645"&gt;961 6 410 645&lt;/a&gt;        
+        &lt;p&gt;
+            &lt;a href="mailto:sodeco@sodeco-gestion.com"&gt;sodeco@sodeco-gestion.com&lt;/a&gt;&lt;br /&gt;
+            &lt;a href="http://sodeco-gestion.com/"&gt;www.sodeco-gestion.com&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+</root>

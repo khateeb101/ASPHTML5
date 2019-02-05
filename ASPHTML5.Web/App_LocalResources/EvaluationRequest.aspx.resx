@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.input_left" xml:space="preserve">
+    <value>images/input_left.gif</value>
+  </data>
+  <data name="Image.input_right" xml:space="preserve">
+    <value>images/input_right.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>images/map.gif</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Sodeco Gestion | Evaluation Request</value>
+  </data>
+  <data name="Image.Submit" xml:space="preserve">
+    <value>images/submit.gif</value>
+  </data>
+  <data name="Text.AboutYourPropertyEval" xml:space="preserve">
+    <value>About your property</value>
+  </data>
+  <data name="Text.Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Text.Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Text.City" xml:space="preserve">
+    <value>City/Town</value>
+  </data>
+  <data name="Text.Email" xml:space="preserve">
+    <value>E-mail *</value>
+  </data>
+  <data name="Text.FirstName" xml:space="preserve">
+    <value>Name *</value>
+  </data>
+  <data name="Text.MoreDetails" xml:space="preserve">
+    <value>More details about your request</value>
+  </data>
+  <data name="Text.Phone" xml:space="preserve">
+    <value>Phone *</value>
+  </data>
+  <data name="Text.Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Text.Surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Text.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Text.TitleMiss" xml:space="preserve">
+    <value>Miss</value>
+  </data>
+  <data name="Text.TitleMr" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="Text.TitleMrs" xml:space="preserve">
+    <value>Mrs</value>
+  </data>
+  <data name="Text.ValueFor" xml:space="preserve">
+    <value>Value for</value>
+  </data>
+  <data name="Text.YourDetails" xml:space="preserve">
+    <value>Your details</value>
+  </data>
+  <data name="Text.EmailSubmitted" xml:space="preserve">
+    <value>An email has been sent to Sodeco Gestion responsible and you will be contacted soon to provide you with additional details.</value>
+  </data>
+  <data name="Error.IncorrectEmail" xml:space="preserve">
+    <value>Incorrect Email Format</value>
+  </data>
+  <data name="Text.ErrorOccurred" xml:space="preserve">
+    <value>An error has occurred while submitting the form, please try again later or contact the System Administrator and provide them with the below error details.</value>
+  </data>
+  <data name="Text.Proceed" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="Text.Content1Eval" xml:space="preserve">
+    <value>We undertake many valuations every week, giving us intimate knowledge of property prices in your area. Our valuations are based on comparable market analysis, taking into account the situation of property and all the local amenties surrounding it.</value>
+  </data>
+  <data name="Text.Content1Manage" xml:space="preserve">
+    <value>&lt;p&gt;Whether you are a landlord or a tenant, you can trust our experienced Property Management Team.&lt;br/&gt; 
+With expertise in both commercial and residential property management, our team ensure the smooth day to day running of buildings and  assiste landlords in managing their rental properties.&lt;/p&gt;
+&lt;p&gt;Discover how we can assist you  by completing our enquiry form or calling us on (+961) 1 616 000.&lt;/p&gt;</value>
+  </data>
+  <data name="Text.Content2Advise" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Text.Content2Eval" xml:space="preserve">
+    <value>Kindly fill the below form. The agency closest to the place where is situated your property will automatically be notified and will get in touch with you.</value>
+  </data>
+  <data name="Text.Content2Manage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Text.FormTitleAdvise" xml:space="preserve">
+    <value>Advisory Request Form</value>
+  </data>
+  <data name="Text.FormTitleEval" xml:space="preserve">
+    <value>Your Property</value>
+  </data>
+  <data name="Text.FormTitleManage" xml:space="preserve">
+    <value>Manage your Property Request Form</value>
+  </data>
+  <data name="Text.Content1Advise" xml:space="preserve">
+    <value>&lt;p&gt;Allow us to devote the time and expertise to advise you of the best options and help you make a well-informed decision.
+&lt;/p&gt;&lt;p&gt;Whether you are looking to buy, rent, sell or invest, our services ensure that you make the right property decision.&lt;/p&gt;
+&lt;p&gt;Discover how we can assist you  by completing our enquiry form or calling us on (+961) 1 616 000&lt;/p&gt;</value>
+  </data>
+  <data name="Text.HeaderContentEval" xml:space="preserve">
+    <value>xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx</value>
+  </data>
+  <data name="Text.HeaderTitleEval" xml:space="preserve">
+    <value>Evaluation Request</value>
+  </data>
+  <data name="Text.HeaderContentAdvise" xml:space="preserve">
+    <value>xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx</value>
+  </data>
+  <data name="Text.HeaderContentManage" xml:space="preserve">
+    <value>xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx xxxxxxx</value>
+  </data>
+  <data name="Text.HeaderTitleAdvise" xml:space="preserve">
+    <value>Advisory Request Form</value>
+  </data>
+  <data name="Text.HeaderTitleManage" xml:space="preserve">
+    <value>Manage your Property Request Form</value>
+  </data>
+  <data name="Text.BuyAdvise" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="Text.BuyEval" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Text.BuyManage" xml:space="preserve">
+    <value>Apartment</value>
+  </data>
+  <data name="Text.RentAdvise" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Text.RentEval" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="Text.RentManage" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="Text.Sell" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Text.ValueForAdvise" xml:space="preserve">
+    <value>Advise for</value>
+  </data>
+  <data name="Text.ValueForEval" xml:space="preserve">
+    <value>Value for</value>
+  </data>
+  <data name="Text.ValueForManage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="Text.Upload" xml:space="preserve">
+    <value>Upload Document/Attachment</value>
+  </data>
+  <data name="Text.SellEval" xml:space="preserve">
+    <value>Sell</value>
+  </data>
+  <data name="Text.AboutYourPropertyAdvise" xml:space="preserve">
+    <value>About your request</value>
+  </data>
+  <data name="Text.AboutYourPropertyManage" xml:space="preserve">
+    <value>About your property</value>
+  </data>
+</root>

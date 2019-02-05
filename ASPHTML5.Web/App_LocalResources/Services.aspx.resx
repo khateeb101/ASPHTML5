@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.arrange" xml:space="preserve">
+    <value>images/arrange.gif</value>
+  </data>
+  <data name="Image.arrange_1" xml:space="preserve">
+    <value>images/arrange_1.gif</value>
+  </data>
+  <data name="Image.arrange_2" xml:space="preserve">
+    <value>images/arrange_2.gif</value>
+  </data>
+  <data name="Image.arrange_3" xml:space="preserve">
+    <value>images/arrange_3.gif</value>
+  </data>
+  <data name="Image.arrange_4" xml:space="preserve">
+    <value>images/arrange_4.gif</value>
+  </data>
+  <data name="Image.arrow_blue_bottom" xml:space="preserve">
+    <value>images/arrow_blue_bottom.gif</value>
+  </data>
+  <data name="Image.arrow_blue_top" xml:space="preserve">
+    <value>images/arrow_blue_top.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>images/map.gif</value>
+  </data>
+  <data name="Image.newsletter_bottom" xml:space="preserve">
+    <value>images/newsletter_bottom.gif</value>
+  </data>
+  <data name="Image.newsletter_top" xml:space="preserve">
+    <value>images/newsletter_top.gif</value>
+  </data>
+  <data name="Image.services_img_1" xml:space="preserve">
+    <value>images/home-purchases.png</value>
+  </data>
+  <data name="Image.services_img_2" xml:space="preserve">
+    <value>images/services.jpg</value>
+  </data>
+  <data name="Image.services_img_3" xml:space="preserve">
+    <value>images/services_img.jpg</value>
+  </data>
+  <data name="Image.services_img_4" xml:space="preserve">
+    <value>images/student_services.jpg</value>
+  </data>
+  <data name="Image.services_img_5" xml:space="preserve">
+    <value>images/services_img_5.jpg</value>
+  </data>
+  <data name="Image.services_img_6" xml:space="preserve">
+    <value>images/services_img_6.jpg</value>
+  </data>
+  <data name="Image.services_img_7" xml:space="preserve">
+    <value>images/services_img_7.jpg</value>
+  </data>
+  <data name="Image.services_img_8" xml:space="preserve">
+    <value>images/services_img_8.jpg</value>
+  </data>
+  <data name="Image.services_img_9" xml:space="preserve">
+    <value>images/services_img_9.jpg</value>
+  </data>
+  <data name="Image.view_1" xml:space="preserve">
+    <value>images/view_1.gif</value>
+  </data>
+  <data name="Image.view_2" xml:space="preserve">
+    <value>images/view_2.gif</value>
+  </data>
+  <data name="Image.view_3" xml:space="preserve">
+    <value>images/view_3.gif</value>
+  </data>
+  <data name="Image.view_4" xml:space="preserve">
+    <value>images/view_4.gif</value>
+  </data>
+  <data name="LatestOnSale.Text" xml:space="preserve">
+    <value>Latest on sale properties</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Real Estate Consultant | Property Management</value>
+  </data>
+  <data name="View.Reason" xml:space="preserve">
+    <value>to buy and rent in</value>
+  </data>
+  <data name="View.Some" xml:space="preserve">
+    <value>View some of the Hottest  areas </value>
+  </data>
+  <data name="Text.Call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="Text.FindOut" xml:space="preserve">
+    <value>to find out</value>
+  </data>
+  <data name="Text.FurtherInformation" xml:space="preserve">
+    <value>for further information about selling your home, or to find out</value>
+  </data>
+  <data name="Text.Header" xml:space="preserve">
+    <value>&lt;h1 class="seo_title"&gt;Sodeco Gestion Real Estate Services &lt;/h1&gt;</value>
+  </data>
+  <data name="Text.HeaderContent" xml:space="preserve">
+    <value>We offer an outstanding level of personal service and expert professional advice about the various property market aspects and adapt to all market changes, in order to assist our clients in achieving their goals.</value>
+  </data>
+  <data name="Text.PropertiesForSale" xml:space="preserve">
+    <value>Properties for sale</value>
+  </data>
+  <data name="Text.PropertValueIncrease" xml:space="preserve">
+    <value>Has your property's value increased? Call +961 1616000 to find out your property's value</value>
+  </data>
+  <data name="Text.PropertyValue" xml:space="preserve">
+    <value>your property's value</value>
+  </data>
+  <data name="Text.PropertyValueIncrease" xml:space="preserve">
+    <value>Has your property's value increased? Call</value>
+  </data>
+  <data name="Text.PropertyWorth" xml:space="preserve">
+    <value>how much your property is worth</value>
+  </data>
+  <data name="Text.Service1" xml:space="preserve">
+    <value>Sales/ Purchases</value>
+  </data>
+  <data name="Text.Service2" xml:space="preserve">
+    <value>Lettings</value>
+  </data>
+  <data name="Text.Service3" xml:space="preserve">
+    <value>Management services for rented apartments or whole rented building</value>
+  </data>
+  <data name="Text.Service4" xml:space="preserve">
+    <value>Property Management and fees</value>
+  </data>
+  <data name="Text.Service5" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.Service6" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.Service7" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.Service8" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.Service9" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.ServiceText1" xml:space="preserve">
+    <value>1-	Market valuation of the property, revised and updated on regular intervals.&lt;br/&gt;
+2-	Marketing and advertising clients’ properties at our own expense in various property publications (newspapers, magazines, leaflets, our own website).&lt;br/&gt;
+3-	Showing prospective purchasers around the property, and negotiate the best possible price agreeable to both parties.&lt;br/&gt;
+4-	Drafting contracts, introducing and liaising with the notary public in order to complete the purchase transaction and obtain the title deeds of the property in question.&lt;br/&gt;
+5-	Financial advice and assistance in obtaining bank loans.&lt;br/&gt;
+6-	Getting quotations for the total refurbishment and redecoration of the property&lt;br/&gt;
+7-	Help with the installation and connection of all utilities (telephone, electricity, etc)&lt;br/&gt;
+8-	Obtaining a home insurance certificate tailored to the clients own needs&lt;br/&gt;
+9-	In the case of Exclusive Agency Agreements, Sodeco Gestion will arrange the collection of all the certificates necessary to complete the purchasing transaction.&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText2" xml:space="preserve">
+    <value>1-	Rental valuation of the Landlord’s property&lt;br/&gt;
+2-	Incurring all charges for marketing and advertising clients’ properties in various media.&lt;br/&gt;
+3-	Showing prospective tenants around the property, and negotiate the best possible price agreeable to both parties.&lt;br/&gt;
+4-	Collect references for the prospective tenants (bank, employer, and previous Landlord). Collect a reservation deposit from the tenant in order to secure the property.&lt;br/&gt;
+5-	Drafting and signing Tenancy Agreements on behalf of the Landlord.&lt;br/&gt;
+6-	Registration of the Tenancy Agreements at the municipality.&lt;br/&gt;
+7-	 Organizing inventory check-in and check-out at the beginning and end of the tenancies.&lt;br/&gt;
+8-	Renewing or terminating tenancy agreements at the end of the term.&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText3" xml:space="preserve">
+    <value>1-	Collecting rental incomes.&lt;br/&gt;
+2-	Registration of the tenancy contracts at the municipality.&lt;br/&gt;
+3-	Declaration of rental income and payment of taxes on behalf of the Landlord.&lt;br/&gt;
+4-	Building maintenance&lt;br/&gt;
+5-	Try to obtain the best possible price for the client and help him achieve capital gain/profit.&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText4" xml:space="preserve">
+    <value>1-	Management of the common parts of a building on behalf of all its owners: ensuring the smooth day to day running of the building, keeping all the amenities and utilities in good working order, such as lifts, electric generators, boilers, water wells and water pumps etc. Recruiting and employing a caretaker for the building and supervising his work on regular basis.&lt;br/&gt;&lt;br/&gt;
+2-	Legal and administrative services:&lt;br/&gt;
+a.	Issuing and distributing notices of general assembly meetings to all owners, and record minutes of the meetings.&lt;br/&gt;
+b.	Obtain all the necessary insurance certificates for the building.&lt;br/&gt;
+c.	 Issue warnings for service charge arrears to the owners concerned and subsequently start legal proceedings to collect these charges.&lt;br/&gt;&lt;br/&gt;
+3-	Accounting services:&lt;br/&gt;
+a.	Preparation of a budget forecast for the coming year.&lt;br/&gt;
+b.	Issue service charge demands/ quarterly statement of accounts to each owner. &lt;br/&gt;
+c.	Issue an annual statement of account for the building expenses.&lt;br/&gt;
+d.	Collection of service charges from the co-owners.&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText5" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText6" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText7" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText8" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText9" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Meta.Desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta.Keywords" xml:space="preserve">
+    <value />
+  </data>
+</root>

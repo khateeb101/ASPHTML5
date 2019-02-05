@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.arrange" xml:space="preserve">
+    <value>images/arrange.gif</value>
+  </data>
+  <data name="Image.arrange_1" xml:space="preserve">
+    <value>images/arrange_1.gif</value>
+  </data>
+  <data name="Image.arrange_2" xml:space="preserve">
+    <value>images/arrange_2.gif</value>
+  </data>
+  <data name="Image.arrange_3" xml:space="preserve">
+    <value>images/arrange_3.gif</value>
+  </data>
+  <data name="Image.arrange_4" xml:space="preserve">
+    <value>images/arrange_4.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>images/map.gif</value>
+  </data>
+  <data name="Image.view_1" xml:space="preserve">
+    <value>images/view_1.gif</value>
+  </data>
+  <data name="Image.view_2" xml:space="preserve">
+    <value>images/view_2.gif</value>
+  </data>
+  <data name="Image.view_3" xml:space="preserve">
+    <value>images/view_3.gif</value>
+  </data>
+  <data name="Image.view_4" xml:space="preserve">
+    <value>images/view_4.gif</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Sodeco Gestion | Investments</value>
+  </data>
+  <data name="Text.Call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="Text.FurtherInformation" xml:space="preserve">
+    <value>for further information about selling your home, or to find out</value>
+  </data>
+  <data name="Text.HeaderContent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Text.HeaderTitle" xml:space="preserve">
+    <value>Investments and Portfolios (Under Construction)</value>
+  </data>
+  <data name="Text.InAdvance" xml:space="preserve">
+    <value>In advance or off plan</value>
+  </data>
+  <data name="Text.InAdvanceText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming</value>
+  </data>
+  <data name="Text.InAreas" xml:space="preserve">
+    <value>In areas they feel are due to grow</value>
+  </data>
+  <data name="Text.InAreasText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod</value>
+  </data>
+  <data name="Text.InBulk" xml:space="preserve">
+    <value>In bulk</value>
+  </data>
+  <data name="Text.InBulkText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod</value>
+  </data>
+  <data name="Text.InvestmentKnowledge" xml:space="preserve">
+    <value>Investment Knowledge</value>
+  </data>
+  <data name="Text.InvestmentKnowledge2" xml:space="preserve">
+    <value>Investment Knowledge</value>
+  </data>
+  <data name="Text.InvestmentKnowledgeText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.InvestmentKnowledgeText2" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.NewBuild" xml:space="preserve">
+    <value>New build developments</value>
+  </data>
+  <data name="Text.NewBuildText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod</value>
+  </data>
+  <data name="Text.PropertiesForRent" xml:space="preserve">
+    <value>Properties for Rent</value>
+  </data>
+  <data name="Text.PropertValueIncrease" xml:space="preserve">
+    <value>Has your property's value increased? Call +961 1616000 to find out your property's value</value>
+  </data>
+  <data name="Text.PropertyInvestment" xml:space="preserve">
+    <value>Property as Investment</value>
+  </data>
+  <data name="Text.PropertyInvestmentsText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.PropertyProfiting" xml:space="preserve">
+    <value>Profiting from Property</value>
+  </data>
+  <data name="Text.PropertyWorth" xml:space="preserve">
+    <value>how much your property is worth</value>
+  </data>
+  <data name="Text.UnmodernizedProperties" xml:space="preserve">
+    <value>Unmodernised properties</value>
+  </data>
+  <data name="Text.UnmodernizedPropertiesText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod</value>
+  </data>
+  <data name="Text.WhatToBuy" xml:space="preserve">
+    <value>What do investors buy?</value>
+  </data>
+  <data name="Text.WhatToBuyText" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod</value>
+  </data>
+  <data name="Accordion.text1" xml:space="preserve">
+    <value>Over a long period, real estate always showed a considerable profitability. In spite of political tensions, this market did not stop valuing these last years.&lt;br /&gt;
+On the contrary, interest rates have been dropping and some say they may drop further. The stone remains a safe investment!&lt;br /&gt;
+Its advantage: more than the currency, it is at first a physical good which has value to exist contrary to a virtual "scrap of paper". Lastly and when everything goes badly, real estate property gets back to its basic use: accommodate owner or tenant.&lt;br /&gt;
+The second advantage: if the acquired real property was chosen on quality criteria, e.g. located in a good district (schools, trade, etc.), its value should better resist the possible decline of the market, more than any other property badly located, of inferior quality or with defects. In a period of inflation, the best locations are often the first ones to value.</value>
+  </data>
+  <data name="Accordion.text2" xml:space="preserve">
+    <value>You are entrepreneurs and look for investors to realize your project. Take advantage of our expertise on the subject to advise you in your plans, make you a market study … You will be put in touch with potential investors in agreement with your project. &lt;a href="EvaluationRequest/Eval"&gt; Submit your project&lt;/a&gt;, so we can put you in connection with your future associates.</value>
+  </data>
+  <data name="Accordion.text3" xml:space="preserve">
+    <value>You wish to make a good investment; we can help you in your approach. Our panel of project is provided to you to advise you best on fiscal, legal and economic aspect of your future investment. &lt;br /&gt;
+&lt;a href="ContactUs"&gt;Contact us&lt;/a&gt; to know more about our projects.</value>
+  </data>
+  <data name="Accordion.text4" xml:space="preserve">
+    <value>You wish to: sell your Land, Buy a Land, Participate in a project with your Land &lt;br /&gt;
+&lt;a href="ContactUs"&gt;Contact us&lt;/a&gt; to know more about our projects.</value>
+  </data>
+  <data name="Accordion.text5" xml:space="preserve">
+    <value>Invest in new projects, in sectors where request of properties for rent is important. &lt;br /&gt;
+&lt;a href="/SearchResults.aspx?New=true"&gt;Check our new projects&lt;/a&gt;.</value>
+  </data>
+  <data name="Accordion.text6" xml:space="preserve">
+    <value>Foreign countries offer you several possibilities in investments, whether it is speculative investments or investments in rental property, but also in the purchase of a holiday home.</value>
+  </data>
+  <data name="Accordion.title1" xml:space="preserve">
+    <value>Why invest in Real Estate</value>
+  </data>
+  <data name="Accordion.title2" xml:space="preserve">
+    <value>Entrepreneur</value>
+  </data>
+  <data name="Accordion.title3" xml:space="preserve">
+    <value>Investor</value>
+  </data>
+  <data name="Accordion.title4" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="Accordion.title5" xml:space="preserve">
+    <value>Project under construction</value>
+  </data>
+  <data name="Accordion.title6" xml:space="preserve">
+    <value>Invest abroad</value>
+  </data>
+  <data name="Text.Header" xml:space="preserve">
+    <value>Real Estate Investments in Lebanon</value>
+  </data>
+  <data name="Meta.Desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta.Keywords" xml:space="preserve">
+    <value />
+  </data>
+</root>

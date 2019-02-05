@@ -1,0 +1,65 @@
+/* scroll styles begin */
+div#hold {
+	z-index: 100; 
+position: relative; 
+width: 706px; 
+height: 60px; 
+overflow: hidden;
+}
+div#wn {
+	z-index: 1; 
+position: absolute; 
+width: 706px; 
+height: 90px; 
+overflow: hidden; 
+top: 0px; 
+left: 0px;
+}
+div#lyr1 {
+	z-index: 1; 
+position: absolute; 
+visibility: hidden; 
+top: 0px; 
+left: 0px
+}
+div#scrollbar {
+	z-index: 222; 
+position: absolute; 
+width: 706px;
+height: 13px; 
+font-size: 1px; 
+top: 200px; 
+left: 0px;
+}
+div#track {
+	z-index: 1; 
+position: absolute; 
+width: 695px;
+background: url(../images/track.gif) #336; 
+height: 13px; 
+top: 0px; 
+left: 12px;
+}
+div#dragbar {
+	z-index: 1; 
+position: absolute; 
+background-color: #7cb941; 
+width: 20px; 
+height: 9px; 
+top: 1px; 
+cursor: hand; 
+left: 1px
+}
+div#left {
+	z-index: 2; 
+position: absolute; 
+top: 0px; 
+left: 0px
+}
+div#right {
+	z-index: 3; 
+position: absolute; 
+top: 0px; 
+right: 0px
+}
+/* scroll styles end */

@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administration.Master.cs" Inherits="ASPHTML5.Web.Administration" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../includes/styles.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/JavaScript" src="../includes/functions.js"></script>
+<!-- Scroll Function Begin -->
+<script type=text/javascript src="../includes/scroll/dw_scrollobj.js"></script>
+<script type=text/javascript src="../includes/scroll/dw_hoverscroll.js"></script>
+<script type=text/javascript src="../includes/scroll/dw_event.js"></script>
+<script type=text/javascript src="../includes/scroll/dw_slidebar.js"></script>
+<script type=text/javascript src="../includes/scroll/dw_scroll_aux.js"></script>
+<!-- Scroll Function End -->
+<%--<script>id = "home"</script>
+<script>id2 = ""</script>--%>
+<!--[if IE 7]>
+<link href="../includes/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>Sodeco Gestion</title>
+</head>
+<body>
+<form runat="server" id="form">
+<asp:ScriptManager ID="ScriptManager1" runat="server">
+</asp:ScriptManager> 
+<table width="1000" align="center" class="generalsection" border="0" cellspacing="0" cellpadding="0">
+<tr>
+		<td valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="212"><a href="Index.aspx"><img src="../images/logo.gif" alt="Home" title="Home" border="0" /></a></td>
+      <td><img src="/images/spacer.gif" alt="" /></td>
+      <td width="212" valign="top">
+      <div class="info_div">
+      <div><img src="/images/spacer.gif" alt="" width="1" height="10" /></div>
+      <div>Sodeco Gestion sal</div>
+      <div>Sodeco Street, Beirut, Lebanon</div>
+      <div>T 961 1 - 616000</div>
+      <div>F 961 1 - 614280</div>
+      <div><a href="mailto:sodeco@sodeco-gestion.com">sodeco@sodeco-gestion.com</a></div>
+      <div><a href="www.sodeco-gestion.com" target="_blank">www.sodeco-gestion.com</a></div>
+       </div>
+      </td>
+    </tr>
+  	</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="212" valign="top">
+      <!-- Left Menu Begin -->
+      <div>
+      <div class="menu_item_top"></div>
+      <div class="menu_item textalignright">&nbsp;</div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignright"><a href="JobOpportunityManagement.aspx" id="jobopportunityMgt">Job Opportunities Management</a></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignright"><a href="JobOpportunityCandidateManagement.aspx" id="candidateMgt">Applied Candidates Management</a></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignright"><a href="Newsletters.aspx" id="Newsletters">Newsletters</a></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignright">&nbsp;</div>
+      </div>
+      <!-- Left Menu End -->
+      </td>
+      <td valign="top">
+       <div class="top_img_div">
+      </div>
+      <div><img src="../../images/top_img.jpg" alt="" /></div>          
+      </td>
+      <td width="212" valign="top">
+      <!-- Right Menu Begin -->
+      <div>
+      <div class="menu_item_top"></div>
+      <div class="menu_item textalignleft">&nbsp;</div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignleft"><a href="NewsletterManagement.aspx" id="newsletterMgt">Newsletter Management</a></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignleft"><a href="ChangePassword.aspx" id="changePassword">Change Password</a></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignleft"><asp:LinkButton ID="lnkLogout" runat="server" 
+              onclick="lnkLogout_Click">Log out</asp:LinkButton></div>
+      <div class="menu_item_sep"></div>
+      <div class="menu_item textalignleft">&nbsp;</div>
+      </div>
+      <!-- Right Menu End -->
+      </td>
+    </tr>
+  	</table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="219" valign="bottom">
+      </td>
+      <td valign="top">
+      <div class="middle_padd">
+      <asp:ContentPlaceHolder ID="cpHead" runat="server"></asp:ContentPlaceHolder>
+      </div>
+      <div><asp:ContentPlaceHolder ID="cpMain" runat="server"></asp:ContentPlaceHolder></div>      
+      </td>
+      <td width="223" valign="top">
+      </td>
+    </tr>
+  	</table>
+  	<asp:ContentPlaceHolder ID="cpBottomPanel" runat="server"></asp:ContentPlaceHolder>
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="212"></td>
+      <td>
+      <div class="footer_div">
+      <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="122"><a href="../ASPHTML5.aspx" id="sodeco_gestion">Sodeco Gestion</a></td>
+        <td width="165"><a href="../TermsAndConditions.aspx" id="terms_conditions">Terms and Conditions</a></td>
+        <td width="100"><a href="../Help.aspx" id="help">Help</a></td>
+        <td width="128"><a href="../ContactUs" id="contact_form2">Contact</a></td>
+        <td><a href="../JobOpportunity.aspx" id="job_openings">Jobs</a></td>
+      </tr>
+    	</table>
+      </div>
+      </td>
+      <td width="212"></td>
+    </tr>
+  	</table>
+    <!-- Script to highlight Menu Begin -->    
+       <script>
+           if (document.getElementById(id)) {
+               document.getElementById(id).style.color = "#6bcdea";
+           }
+           if (document.getElementById(id2)) {
+               document.getElementById(id2).style.color = "#06507f";
+           }
+</script> 
+    <!-- Script to highlight Menu End --> 
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

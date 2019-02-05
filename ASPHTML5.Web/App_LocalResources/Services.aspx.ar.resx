@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.arrange" xml:space="preserve">
+    <value>arabic/images/arrange.gif</value>
+  </data>
+  <data name="Image.arrange_1" xml:space="preserve">
+    <value>arabic/images/arrange_1.gif</value>
+  </data>
+  <data name="Image.arrange_2" xml:space="preserve">
+    <value>arabic/images/arrange_2.gif</value>
+  </data>
+  <data name="Image.arrange_3" xml:space="preserve">
+    <value>arabic/images/arrange_3.gif</value>
+  </data>
+  <data name="Image.arrange_4" xml:space="preserve">
+    <value>arabic/images/arrange_4.gif</value>
+  </data>
+  <data name="Image.arrow_blue_bottom" xml:space="preserve">
+    <value>arabic/images/arrow_blue_bottom.gif</value>
+  </data>
+  <data name="Image.arrow_blue_top" xml:space="preserve">
+    <value>arabic/images/arrow_blue_top.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>arabic/images/map.gif</value>
+  </data>
+  <data name="Image.newsletter_bottom" xml:space="preserve">
+    <value>arabic/images/newsletter_bottom.gif</value>
+  </data>
+  <data name="Image.newsletter_top" xml:space="preserve">
+    <value>arabic/images/newsletter_top.gif</value>
+  </data>
+  <data name="Image.services_img_5" xml:space="preserve">
+    <value>arabic/images/services_img_5.jpg</value>
+  </data>
+  <data name="Image.services_img_6" xml:space="preserve">
+    <value>arabic/images/services_img_6.jpg</value>
+  </data>
+  <data name="Image.services_img_7" xml:space="preserve">
+    <value>arabic/images/services_img_7.jpg</value>
+  </data>
+  <data name="Image.services_img_8" xml:space="preserve">
+    <value>arabic/images/services_img_8.jpg</value>
+  </data>
+  <data name="Image.services_img_9" xml:space="preserve">
+    <value>arabic/images/services_img_9.jpg</value>
+  </data>
+  <data name="Image.view_1" xml:space="preserve">
+    <value>arabic/images/view_1.gif</value>
+  </data>
+  <data name="Image.view_2" xml:space="preserve">
+    <value>arabic/images/view_2.gif</value>
+  </data>
+  <data name="Image.view_3" xml:space="preserve">
+    <value>arabic/images/view_3.gif</value>
+  </data>
+  <data name="Image.view_4" xml:space="preserve">
+    <value>arabic/images/view_4.gif</value>
+  </data>
+  <data name="LatestOnSale.Text" xml:space="preserve">
+    <value>أحدث الممتلكات المعروضة للبيع</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>خدمات سوديكو جستيون العقارية في لبنان، تقييم العقارات في لبنان، خدمات ما بعد البيع</value>
+  </data>
+  <data name="View.Reason" xml:space="preserve">
+    <value> للبيع والإيجار</value>
+  </data>
+  <data name="View.Some" xml:space="preserve">
+    <value> النظر إلى بعض الممتلكات</value>
+  </data>
+  <data name="Text.Call" xml:space="preserve">
+    <value>تطلب</value>
+  </data>
+  <data name="Text.FindOut" xml:space="preserve">
+    <value>لمعرفة</value>
+  </data>
+  <data name="Text.FurtherInformation" xml:space="preserve">
+    <value>لمزيد من المعلومات حول بيع المنزل، أو لمعرفة</value>
+  </data>
+  <data name="Text.Header" xml:space="preserve">
+    <value>&lt;h1 class="seo_title"&gt;خدمات سوديكو جستيون العقارية &lt;/h1&gt;</value>
+  </data>
+  <data name="Text.HeaderContent" xml:space="preserve">
+    <value>نقدم لكم خبرتنا العقارية وخدماتنا المختلفة لأن السوق العقاري يتطور باستمرار وشركتنا تتابع هذا التطور</value>
+  </data>
+  <data name="Text.PropertiesForSale" xml:space="preserve">
+    <value>العقارات المعروضة للبيع</value>
+  </data>
+  <data name="Text.PropertValueIncrease" xml:space="preserve">
+    <value>هل زادت قيمة الممتلكات الخاصة بك؟ اتصل على 1616000 961+ لمعرفة قيمتها</value>
+  </data>
+  <data name="Text.PropertyValue" xml:space="preserve">
+    <value>قيمة الممتلكات الخاصة بك</value>
+  </data>
+  <data name="Text.PropertyValueIncrease" xml:space="preserve">
+    <value>هل زادت قيمة الممتلكات الخاصة بك؟ اتصل ب 1616000 961+</value>
+  </data>
+  <data name="Text.PropertyWorth" xml:space="preserve">
+    <value>كم من الممتلكات الخاصة بك يستحق</value>
+  </data>
+  <data name="Text.Service1" xml:space="preserve">
+    <value>عمليات البيع / الشراء</value>
+  </data>
+  <data name="Text.Service2" xml:space="preserve">
+    <value>خدمات للمؤجرين</value>
+  </data>
+  <data name="Text.Service3" xml:space="preserve">
+    <value>إدارة الأملاك المؤجرة</value>
+  </data>
+  <data name="Text.Service4" xml:space="preserve">
+    <value>إدارة الأملاك المفرزة (سنديك)</value>
+  </data>
+  <data name="Text.Service5" xml:space="preserve">
+    <value>الآلاف من عقارات</value>
+  </data>
+  <data name="Text.Service6" xml:space="preserve">
+    <value>الآلاف من عقارات</value>
+  </data>
+  <data name="Text.Service7" xml:space="preserve">
+    <value>الآلاف من عقارات</value>
+  </data>
+  <data name="Text.Service8" xml:space="preserve">
+    <value>الآلاف من عقارات</value>
+  </data>
+  <data name="Text.Service9" xml:space="preserve">
+    <value>الآلاف من عقارات</value>
+  </data>
+  <data name="Text.ServiceText1" xml:space="preserve">
+    <value>للبائع:&lt;br/&gt;
+•	تخمين خاص وسري للعقار المعروض للبيع&lt;br/&gt;
+•	الدعايات في صحف ومجلات أو إنترنت أو غيرها&lt;br/&gt;
+•	في حال توكيلنا حصريالترويج العقار تؤمن سوديكو جستيون كافة المستندات اللازمة لمعاملة البيع&lt;br/&gt;&lt;br/&gt;
+للشاري :&lt;br/&gt;
+•	عقد البيع: الإتصال بكتاب العدل والسهر على توقيعه ومتابعته لغاية التسجيل النهائي في السجل العقاري والحصول على سند تمليك باسم الشاري&lt;br/&gt;
+•	مرافقة في المفاوضات مع المصارف لاستحصال على قرض.&lt;br/&gt;
+•	مساعدة في الحصول على عروض لإعادة تأهيل العقار&lt;br/&gt;
+•	مساعدة في المعاملات مع الدوائر الرسمية: كهرباء وهاتف ومياه...&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText2" xml:space="preserve">
+    <value>•	تخمين بدل الإيجار حسب الايجارات الجارية في السوق العقاري.&lt;br/&gt;
+•	ترويج المأجور في الصحف والإنترنت وكل ما يساعد في التسويق&lt;br/&gt;
+•	التحقق من قدرة المستاجر المالية على تسديد بدل الايجار.&lt;br/&gt;
+•	إعداد العقود والسهر على توقيعها وتسجيلها في دوائر البلدية بعد دفع رسم الطابع&lt;br/&gt;
+•	إنهاء العقود و/أو تجديدها &lt;br/&gt;
+•	السهر على وضع محضر بحالة المأجور ومحتوياته&lt;br/&gt;
+•	تصفية الحسابات مع المستأجر&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText3" xml:space="preserve">
+    <value>•	قبض بدلات الإيجار&lt;br/&gt;
+•	دفع المصاريف وتوزيعها على المستأجرين وقبض قيمتها منهم&lt;br/&gt;
+•	تسجيل عقود الإيجار حيث تدعو الحاجة&lt;br/&gt;
+•	متابعة دوائر المالية لتحديد قيمة ضريبة الأملاك المبنية ودفعها&lt;br/&gt;
+•	متابعة صيانة الأبنية في كل ما هو على عاتق المالك&lt;br/&gt;
+•	وضع البيانات المالية للمالك وتسديد له ما يعود له من مداخيل البناء&lt;br/&gt;
+•	السهر على تحقيق زيادة في المدخول للمالك&lt;br/&gt;</value>
+  </data>
+  <data name="Text.ServiceText4" xml:space="preserve">
+    <value>تقوم سوديكو جستيون ش م ل بكافة الأعمال الملقاة بالقانون ونظام الملكية المشتركة على عاتق رئيس جمعية المالكين بالتعاون الكامل مع هذا الأخير وباسمه وتحت إشرافه.
+&lt;br/&gt;
+1) في مجال الإدارة:&lt;br/&gt;
+•	دعوة جمعية المالكين للإنعقاد والسهر على تبليغ كل مالك حسب القانون ونظام الملكية&lt;br/&gt;
+•	وضع مشروع موازنة تقديرية لمصاريف البناء وعرضه على الجمعية للتصويت.&lt;br/&gt;
+•	توزيع الموازنة على المالكين وإبلاغ كل منهم بما يعود عليه من سلفات على أساس الموازنة&lt;br/&gt;
+•	وضع محضر بقرارات الجمعية والسهر على توزيعه على كل المالكين&lt;br/&gt;&lt;br/&gt;
+
+2) في مجال المحاسبة:&lt;br/&gt;
+•	تحصيل السلفات من المالكين&lt;br/&gt;
+•	وضع المقبوضات في حساب خاص بالبناء في المصرف&lt;br/&gt;
+•	دفع فواتير البناء حسب الموازنة الموافق عليها وبعد موافقة رئيس الجمعية&lt;br/&gt;
+•	وضع الميزانية العامة للجمعية والحسابات المرفقة بها في آخر كل سنة ليصار إلى المصادقة عليها في الجمعية العمومية للمالكين,&lt;br/&gt;
+
+3) في مجال الصيانة:
+•	السهر على توقيع عقود الصيانة السنوية لكل الأجهزة المشتركة: المصعد، التدفئة المركزية و/أو التبريد المركزي، مولد الكهرباء، حوض السباحة إلخ....</value>
+  </data>
+  <data name="Text.ServiceText5" xml:space="preserve">
+    <value>سي blaortin يوت مينغ tetue nonsequi euguerosto السابقين elissequip إليس nonsenit wisim minit atue autetummy ولا عقوبة praesequat المتبادل، suscidunt diat الإعلانية شيكل delent، ديت wisl consenit praessed magnis وزارة الدفاع صباحا، اليس برات velit nibh السابقين والأنف والحنجرة ipisi بلوخ المحاكمة وآخرون illaor الاشتراكية بلوخ التحرير عصام feuip يخدع veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText6" xml:space="preserve">
+    <value>سي blaortin يوت مينغ tetue nonsequi euguerosto السابقين elissequip إليس nonsenit wisim minit atue autetummy ولا عقوبة praesequat المتبادل، suscidunt diat الإعلانية شيكل delent، ديت wisl consenit praessed magnis وزارة الدفاع صباحا، اليس برات velit nibh السابقين والأنف والحنجرة ipisi بلوخ المحاكمة وآخرون illaor الاشتراكية بلوخ التحرير عصام feuip يخدع veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText7" xml:space="preserve">
+    <value>سي blaortin يوت مينغ tetue nonsequi euguerosto السابقين elissequip إليس nonsenit wisim minit atue autetummy ولا عقوبة praesequat المتبادل، suscidunt diat الإعلانية شيكل delent، ديت wisl consenit praessed magnis وزارة الدفاع صباحا، اليس برات velit nibh السابقين والأنف والحنجرة ipisi بلوخ المحاكمة وآخرون illaor الاشتراكية بلوخ التحرير عصام feuip يخدع veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText8" xml:space="preserve">
+    <value>سي blaortin يوت مينغ tetue nonsequi euguerosto السابقين elissequip إليس nonsenit wisim minit atue autetummy ولا عقوبة praesequat المتبادل، suscidunt diat الإعلانية شيكل delent، ديت wisl consenit praessed magnis وزارة الدفاع صباحا، اليس برات velit nibh السابقين والأنف والحنجرة ipisi بلوخ المحاكمة وآخرون illaor الاشتراكية بلوخ التحرير عصام feuip يخدع veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Text.ServiceText9" xml:space="preserve">
+    <value>سي blaortin يوت مينغ tetue nonsequi euguerosto السابقين elissequip إليس nonsenit wisim minit atue autetummy ولا عقوبة praesequat المتبادل، suscidunt diat الإعلانية شيكل delent، ديت wisl consenit praessed magnis وزارة الدفاع صباحا، اليس برات velit nibh السابقين والأنف والحنجرة ipisi بلوخ المحاكمة وآخرون illaor الاشتراكية بلوخ التحرير عصام feuip يخدع veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="Image.services_img_1" xml:space="preserve">
+    <value>arabic/images/home-purchases.png</value>
+  </data>
+  <data name="Image.services_img_2" xml:space="preserve">
+    <value>arabic/images/services.jpg</value>
+  </data>
+  <data name="Image.services_img_3" xml:space="preserve">
+    <value>arabic/images/services_img.jpg</value>
+  </data>
+  <data name="Image.services_img_4" xml:space="preserve">
+    <value>arabic/images/student_services.jpg</value>
+  </data>
+  <data name="Meta.Desc" xml:space="preserve">
+    <value>نقدم لكم خبرتنا العقارية وخدماتنا المختلفة لأن السوق العقاري يتطور باستمرار وشركتنا تتابع هذا التطور</value>
+  </data>
+  <data name="Meta.Keywords" xml:space="preserve">
+    <value>الخدمات العقارية في لبنان، خدمات الشركات العقارية، تقييم العقارات في لبنان، خدمات ما بعد البيع</value>
+  </data>
+</root>

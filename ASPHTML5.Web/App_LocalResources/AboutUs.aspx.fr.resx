@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Image.arrange" xml:space="preserve">
+    <value>french/images/arrange.gif</value>
+  </data>
+  <data name="Image.arrange_1" xml:space="preserve">
+    <value>french/images/arrange_1.gif</value>
+  </data>
+  <data name="Image.arrange_2" xml:space="preserve">
+    <value>french/images/arrange_2.gif</value>
+  </data>
+  <data name="Image.arrange_3" xml:space="preserve">
+    <value>french/images/arrange_3.gif</value>
+  </data>
+  <data name="Image.arrange_4" xml:space="preserve">
+    <value>french/images/arrange_4.gif</value>
+  </data>
+  <data name="Image.arrow_blue_bottom" xml:space="preserve">
+    <value>french/images/arrow_blue_bottom.gif</value>
+  </data>
+  <data name="Image.arrow_blue_top" xml:space="preserve">
+    <value>french/images/arrow_blue_top.gif</value>
+  </data>
+  <data name="Image.Map" xml:space="preserve">
+    <value>french/images/map.gif</value>
+  </data>
+  <data name="Image.newsletter_bottom" xml:space="preserve">
+    <value>french/images/newsletter_bottom.gif</value>
+  </data>
+  <data name="Image.newsletter_top" xml:space="preserve">
+    <value>french/images/newsletter_top.gif</value>
+  </data>
+  <data name="Image.services_img_1" xml:space="preserve">
+    <value>french/images/services_img_1.jpg</value>
+  </data>
+  <data name="Image.services_img_2" xml:space="preserve">
+    <value>french/images/services_img_2.jpg</value>
+  </data>
+  <data name="Image.services_img_3" xml:space="preserve">
+    <value>french/images/services_img_3.jpg</value>
+  </data>
+  <data name="Image.services_img_4" xml:space="preserve">
+    <value>french/images/services_img_4.jpg</value>
+  </data>
+  <data name="Image.services_img_5" xml:space="preserve">
+    <value>french/images/services_img_5.jpg</value>
+  </data>
+  <data name="Image.services_img_6" xml:space="preserve">
+    <value>french/images/services_img_6.jpg</value>
+  </data>
+  <data name="Image.services_img_7" xml:space="preserve">
+    <value>french/images/services_img_7.jpg</value>
+  </data>
+  <data name="Image.services_img_8" xml:space="preserve">
+    <value>french/images/services_img_8.jpg</value>
+  </data>
+  <data name="Image.services_img_9" xml:space="preserve">
+    <value>french/images/services_img_9.jpg</value>
+  </data>
+  <data name="Image.view_1" xml:space="preserve">
+    <value>french/images/view_1.gif</value>
+  </data>
+  <data name="Image.view_2" xml:space="preserve">
+    <value>french/images/view_2.gif</value>
+  </data>
+  <data name="Image.view_3" xml:space="preserve">
+    <value>french/images/view_3.gif</value>
+  </data>
+  <data name="Image.view_4" xml:space="preserve">
+    <value>french/images/view_4.gif</value>
+  </data>
+  <data name="LatestOnSale.Text" xml:space="preserve">
+    <value>Dernières nouvelles sur les propriétés en vente</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Sodeco Gestion | Nos Avantages</value>
+  </data>
+  <data name="View.Reason" xml:space="preserve">
+    <value>à acheter et à louer dans</value>
+  </data>
+  <data name="View.Some" xml:space="preserve">
+    <value>Voir quelques-unes des zones les plus chaudes</value>
+  </data>
+  <data name="Text.Call" xml:space="preserve">
+    <value>Appel</value>
+  </data>
+  <data name="Text.FindOut" xml:space="preserve">
+    <value>pour en savoir</value>
+  </data>
+  <data name="Text.FurtherInformation" xml:space="preserve">
+    <value>pour plus d'informations sur la vente de votre maison, ou pour savoir</value>
+  </data>
+  <data name="Text.Header" xml:space="preserve">
+    <value>&lt;h1 class="seo_title"&gt;Nos Avantages&lt;/h1&gt;</value>
+  </data>
+  <data name="Text.HeaderContent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Text.PropertiesForSale" xml:space="preserve">
+    <value>Propriétés à vendre</value>
+  </data>
+  <data name="Text.PropertValueIncrease" xml:space="preserve">
+    <value>La valeur de votre propriété a augmenté? Appelez +961 1616000 pour connaitre la valeur de votre propriété</value>
+  </data>
+  <data name="Text.PropertyValue" xml:space="preserve">
+    <value>la valeur de votre propriété</value>
+  </data>
+  <data name="Text.PropertyValueIncrease" xml:space="preserve">
+    <value>La valeur de votre propriété a augmenté? Appelez</value>
+  </data>
+  <data name="Text.PropertyWorth" xml:space="preserve">
+    <value>combien votre propriété vaut</value>
+  </data>
+  <data name="Text.Service1" xml:space="preserve">
+    <value>Une Commercialisation dans les Meilleures Conditions</value>
+  </data>
+  <data name="Text.Service2" xml:space="preserve">
+    <value>Une Gestion Saine</value>
+  </data>
+  <data name="Text.Service3" xml:space="preserve">
+    <value>Une Estimation Précise et Rapide</value>
+  </data>
+  <data name="Text.Service4" xml:space="preserve">
+    <value>Un Marketing Complet</value>
+  </data>
+  <data name="Text.Service5" xml:space="preserve">
+    <value>La Maitrise de la Location</value>
+  </data>
+  <data name="Text.Service6" xml:space="preserve">
+    <value>Des Exclusivités</value>
+  </data>
+  <data name="Text.Service7" xml:space="preserve">
+    <value>Un Suivi Complet de la Clientèle</value>
+  </data>
+  <data name="Text.Service8" xml:space="preserve">
+    <value>Une Enquête de Satisfaction</value>
+  </data>
+  <data name="Text.Service9" xml:space="preserve">
+    <value>Thousands of Properties</value>
+  </data>
+  <data name="Text.ServiceText1" xml:space="preserve">
+    <value>Sodeco Gestion offre une large variété de propriétés pour tous les budgets. La société sécurise toutes les transactions grâce a son service juridique.</value>
+  </data>
+  <data name="Text.ServiceText2" xml:space="preserve">
+    <value>Notre équipe de gestion s'occupe de plus de 5,000 propriétés pour le compte de nos clients libanais et internationaux, les soulageant des problèmes de gestion locative et de syndic de copropriété.</value>
+  </data>
+  <data name="Text.ServiceText3" xml:space="preserve">
+    <value>Nos estimations sont basées sur des analyses comparatives de tous les critères qui déterminent le prix d’une propriété. Elles sont mises à jour régulièrement.</value>
+  </data>
+  <data name="Text.ServiceText4" xml:space="preserve">
+    <value>Nous nous assurons que les propriétés que nos clients nous confient, à la vente ou à la location, reçoivent une exposition maximale dans les différents médias. Nous communiquons à travers les journaux, magazines, brochures et webmarketing.</value>
+  </data>
+  <data name="Text.ServiceText5" xml:space="preserve">
+    <value>Notre large clientèle internationale et libanaise, société ou particulier,  demandant des biens à louer, nous permettent de répondre aux attentes des propriétaires loueurs. Notre service juridique assure les clauses adaptées dans un cadre légal.</value>
+  </data>
+  <data name="Text.ServiceText6" xml:space="preserve">
+    <value>Grâce à la confiance de nos clients, notre portefeuille comprend un vaste choix de propriétés qui sont confiées en exclusivités à Sodeco Gestion. En contre partie, nous mettons tous les moyens pour assurer la réussite de la transaction.</value>
+  </data>
+  <data name="Text.ServiceText7" xml:space="preserve">
+    <value>Nos équipes fortement spécialisées peuvent suivre notre clientèle dans tout le processus de vente, d’achat, de location ou d’investissement. Nous assurons aussi la gestion du portefeuille de leurs biens immobiliers.</value>
+  </data>
+  <data name="Text.ServiceText8" xml:space="preserve">
+    <value>En répondant à notre questionnaire satisfaction, vous aidez Sodeco Gestion à améliorer continuellement le service fourni à ses clients.</value>
+  </data>
+  <data name="Text.ServiceText9" xml:space="preserve">
+    <value>Si blaortin ute ming euguerosto ex elissequip elis nonsenit atue minit wisim nulla autetummy nonsequi tetue tat praesequat, suscidunt ad delent nis diat, consenit wisl dit praessed mod magnis am, velit prat alis nibh ex ent ipisi bla aut et illaor si bla feuip ea con ut veniscilis nonullaor suscidunt</value>
+  </data>
+  <data name="DataList.bedrooms" xml:space="preserve">
+    <value>Chambre(s)</value>
+  </data>
+  <data name="Datalist.rooms" xml:space="preserve">
+    <value>Chambre(s)</value>
+  </data>
+  <data name="Text.ServicesLink" xml:space="preserve">
+    <value>Nos Services</value>
+  </data>
+  <data name="Meta.Desc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Meta.Keywords" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Text.ProfileContent" xml:space="preserve">
+    <value>Acheter, vendre, ou gérer un bien immobilier nécessite l’aide d’un professionnel. Sodeco Gestion est la première société spécialisée dans la gestion et la commercialisation de biens immobiliers au Liban. Elle a été fondée en 1996 par la Banque Libano-Française et Joe KANAAN. La grande connaissance du marché immobilier apportée par ce chef d’entreprise a contribué à l’expansion de la société. Aujourd’hui Sodeco Gestion est leader du marché immobilier Libanais diversifiant son activité à travers plusieurs branches et mettant à votre service plus de 40 cadres fortement expérimentés.</value>
+  </data>
+  <data name="Text.ProfileTitle" xml:space="preserve">
+    <value>&lt;h1 class="seo_title"&gt;Sodeco Gestion S.A.L. Portrait&lt;/h1&gt;</value>
+  </data>
+</root>

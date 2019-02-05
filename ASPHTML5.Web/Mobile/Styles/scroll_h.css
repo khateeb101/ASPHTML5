@@ -1,0 +1,51 @@
+/* NOTE; specs for #wn in head of demo too */
+div#wnMobileImages	{ 
+    position:relative; /* scroll area div must be positioned */
+    width:90%; height:80px; /* width and height required. adjust to suit  */
+    overflow:hidden; /* required! */
+    margin:20px auto;
+	}
+
+/* styles to display list items horizontally */
+ul#horizMobileImages {
+    list-style:none; margin:0; padding:0;
+    white-space:nowrap;
+    }
+ul#horizMobileImages li {
+    display:inline;
+    white-space:nowrap;
+    }
+    ul#horizMobileImages li img {
+        width:100px;
+        height:80px;
+        margin:0px 5px;
+    }
+    
+/* style scrollLinks to suit your taste and layout. */
+div#scrollLinksMobileImages {
+    width:100%;
+    }
+div#scrollLinksMobileImages .left {
+    background-image:url('../../images/arrow_blue_left.gif');
+    background-repeat:no-repeat;
+    width:14px; height:16px; /* specify width and height of your image */
+    position:absolute; left:3px;
+    margin-top:50px;
+    z-index:10;
+    }
+div#scrollLinksMobileImages .right {
+    background-image:url('../../images/arrow_blue_right.gif');
+    background-repeat:no-repeat;
+    width:14px; height:16px; /* specify width and height of your image */
+    position:absolute; right:3px;
+    margin-top:50px;
+    z-index:10;
+    }
+
+/* safari, chrome, opera have very prominent outline by default 
+   opera shows outline movement with scrolling and won't allow none
+   set to suit your page design
+*/
+div#wnMobileImages:focus {
+    outline:1px dotted #eee;
+    }    

@@ -1,0 +1,21 @@
+﻿MasterPageFile="~/Common.Master" Title="Sodeco Gestion | Home"
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="cpHead">
+</asp:Content>
+<asp:Content ID="Content2" runat="server" ContentPlaceHolderID="cpMain">
+</asp:Content>
+
+
+#region Variables
+        #endregion
+
+        #region Properties
+        #endregion
+
+        #region ctor
+        #endregion
+
+        #region Methods
+        #endregion
+
+        #region Internals
+        #endregion
